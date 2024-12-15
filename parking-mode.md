@@ -18,6 +18,18 @@ Random notes \[ToDo]
 
 > There's definitely the potential for danger if the torque isn't nerfed properly, the wheel could spin full lock at 80mph
 
+>
+>
+> 1. we are spoofing 6-7 different signals to get the eps into park assist mode.
+> 2. _\[_&#x38;:08 P&#x4D;_]_&#x69;nfact the steering thinks we are in reverse gear ![😅](https://discordapp.com/assets/3bc4f2d1b8b9d29e732e.svg)
+> 3. _\[_&#x38;:08 P&#x4D;_]_&#x61;nd the speed as 0
+> 4. _\[_&#x38;:08 P&#x4D;_]_&#x73;o no way comma is going to be cool with it
+> 5. _\[_&#x38;:10 P&#x4D;_]_&#x6C;uckily the apa steering torq msg has a factor of 4
+> 6. _\[_&#x38;:10 P&#x4D;_]_&#x73;o every unit of lkas torq we send from comma, it gets requested as 4 times the value to the eps
+> 7. _\[_&#x38;:12 P&#x4D;_]_&#x73;o we literally have to not touch openpilot code(except for the tuning). the white panda takes care of everything
+
+
+
 
 
 
