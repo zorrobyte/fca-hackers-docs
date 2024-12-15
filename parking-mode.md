@@ -1,7 +1,7 @@
 # Parking Mode
 
 {% hint style="danger" %}
-DANGEROUS! Your partner will leave you, your car will steer into a group of crossing children, comma will hate you, and geohot will fart in your face after doing taco bell runs for a week.\
+DANGEROUS! Your partner will leave you, your car will steer into a group of crossing children, comma will hate you, and geohot will fart in your face after doing taco bell runs for a week using the secret good model.\
 \
 But seriously, don't do this unless you are offroad/testing
 {% endhint %}
