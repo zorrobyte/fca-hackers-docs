@@ -9,6 +9,8 @@ But seriously, don't do this unless you are offroad/testing
 \
 Random notes \[ToDo]
 
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
 >
 >
 > 1. Once they see the logs that eps is reporting parking mode, it bans your device from further uploading. So no.
