@@ -4,3 +4,6 @@ Yeah only can 3 and EPS needs to go to the new star board, can 1 goes from the W
 \
 Looks pretty up to date to me. The only difference would be the fork for the Comma device, which is xps\_pac currently (regarding initial pass of WP Guide)\
 \
+![](<.gitbook/assets/image (1).png>)
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
