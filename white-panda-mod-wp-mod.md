@@ -13,6 +13,8 @@ By using this guide, you agree to accept full responsibility for your actions an
 
 ---
 
+Thanks to imadethem for the original guide.
+
 # White Panda Pacifica Mod Instructions
 
 The instructions below are for the hardware portion of the White Panda Pacifica Mod to allow Pacificas to steer to zero and increase torque. This modification involves flashing and attaching a Comma White Panda (WP) to a custom OBDII wire harness, which is wired to the star connector in the glove box, and a 12v power source to power the WP.
