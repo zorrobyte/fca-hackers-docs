@@ -1,43 +1,49 @@
-# White Panda Mod (WP Mod)
+# White Panda mod (WP Mod)
 
-## Disclaimer
+## White Panda Mod (WP Mod)
+
+### Disclaimer
 
 This guide is intended for **educational purposes only**. Some modifications are strictly for **off-road or experimental use**. Certain changes may:
 
-- Be **dangerous** and impair vehicle safety.
-- Violate **U.S. federal, state, or local laws** (e.g., emissions standards or tampering regulations).
-- **Void warranties** or damage your vehicle.
-- Result in a ban from services such as **Comma Connect** or **Cabana**.
+* Be **dangerous** and impair vehicle safety.
+* Violate **U.S. federal, state, or local laws** (e.g., emissions standards or tampering regulations).
+* **Void warranties** or damage your vehicle.
+* Result in a ban from services such as **Comma Connect** or **Cabana**.
 
 By using this guide, you agree to accept full responsibility for your actions and absolve the author of any liability for damage, injury, or legal consequences.
 
----
+***
 
 Thanks to imadethem for the original guide.
 
-# White Panda Pacifica Mod Instructions
+## White Panda Pacifica Mod Instructions
 
 The instructions below are for the hardware portion of the White Panda Pacifica Mod to allow Pacificas to steer to zero and increase torque. This modification involves flashing and attaching a Comma White Panda (WP) to a custom OBDII wire harness, which is wired to the star connector in the glove box, and a 12v power source to power the WP.
 
-## Supply List
+### Supply List
 
-[Discord Channel](https://discord.com/channels/812934069591080962/821388732820094987/829069554449383455)
+Original list: [Discord Channel](https://discord.com/channels/812934069591080962/821388732820094987/829069554449383455)
+
+Connectors (need 2, but order a few extra): [https://www.mouser.com/ProductDetail/TE-Connectivity/2-1418639-5/?qs=%2Fha2pyFaduhylVSWLXnJhXrvkOmBkwm8dxz%2Bebl7lBUZCQg%2Ba48wsw%3D%3D](https://www.mouser.com/ProductDetail/TE-Connectivity/2-1418639-5/?qs=%2Fha2pyFaduhylVSWLXnJhXrvkOmBkwm8dxz%2Bebl7lBUZCQg%2Ba48wsw%3D%3D) Terminals for 18-20 AWG (need 4, again, order a few extra): [https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/5-963715-6/?qs=%2Fha2pyFaduipYPiVdLch8Ohhc50lUUDI8JMaqjVuN9P4IRmpZvZBUA%3D%3D](https://www.mouser.com/ProductDetail/TE-Connectivity-AMP/5-963715-6/?qs=%2Fha2pyFaduipYPiVdLch8Ohhc50lUUDI8JMaqjVuN9P4IRmpZvZBUA%3D%3D) OBDII Harness (need 1): [https://www.amazon.com/dp/B08F5J9DCN/](https://www.amazon.com/dp/B08F5J9DCN/) Star Board (need 1): [https://www.ebay.com/itm/TE-Connectivity-2-2138685-5/133630749732](https://www.ebay.com/itm/TE-Connectivity-2-2138685-5/133630749732) Posi-Tap connectors (1 box - for solderless 12v connection): [https://www.amazon.com/dp/B07SLVS2CM?ref=ppx\_pop\_mob\_ap\_share](https://www.amazon.com/dp/B07SLVS2CM?ref=ppx_pop_mob_ap_share) (edited)
 
 You will also need some 20 AWG wire and connectors to bridge this wire to the OBDII harness. Note that this connection is crucial, and should be made as solid as possible to prevent power interruption.
 
----
+***
 
-## STEP 1: Flash WP and Install `xps_fca` on Comma 2
+### STEP 1: Flash WP and Install `xps_fca` on Comma 2
 
 You will want to first flash the White Panda (WP) with this branch:
-- [xps_seps Branch](https://github.com/xps-genesis/panda/tree/xps_seps)
+
+* [xps\_seps Branch](https://github.com/xps-genesis/panda/tree/xps_seps)
 
 Then install this branch on your Comma 2:
-- [xps_fca Branch](https://github.com/xps-genesis/openpilot/tree/xps_fca)
 
----
+* [xps\_fca Branch](https://github.com/xps-genesis/openpilot/tree/xps_fca)
 
-## STEP 2: Create the OBDII Harness
+***
+
+### STEP 2: Create the OBDII Harness
 
 First, prepare the OBDII harness using this pinout diagram:
 
@@ -51,9 +57,9 @@ You should have a harness similar to this once you are done:
 
 ![](images/step2_complete_harness.png)
 
----
+***
 
-## STEP 3: Prepare New Star Board (eBay Star Board)
+### STEP 3: Prepare New Star Board (eBay Star Board)
 
 To avoid confusion, we’ll refer to this board purchased for the mod as the eBay star board. First, remove the white backing off the eBay star board, then cut off the second tab as shown:
 
@@ -65,9 +71,9 @@ Then, on the back of the eBay star board itself, use a small file or Dremel to c
 
 Replace the white back and the eBay star board is ready for installation.
 
----
+***
 
-## STEP 4: Locate and Tap into 12v Switched Power
+### STEP 4: Locate and Tap into 12v Switched Power
 
 Remove the plastic cover by carefully prying around the USB panel with a plastic trim tool, then remove the harness from the USB:
 
@@ -79,15 +85,15 @@ Now, using the plastic trim remover tool, remove this side panel in the passenge
 
 The video link below shows how to remove the glove box and fabric backing to access the space behind the glove box and the star connector. Note that pushing in the tabs on the sides of the glovebox to drop it for the first time requires a lot of force, and this is normal.
 
-- [How To Change 2017 - 2021 Chrysler Pacifica Cabin Air Filter - Replace Remove Replacement Location](https://www.youtube.com/watch?v=U5MnSaoD4eY)
+* [How To Change 2017 - 2021 Chrysler Pacifica Cabin Air Filter - Replace Remove Replacement Location](https://www.youtube.com/watch?v=U5MnSaoD4eY)
 
 Connect the Posi-Tap Connectors as shown below. On the USB harness, the pink wire is hot, black wire is ground—verify with a voltmeter. Run your 12v wire from the USB through the access panel, up into the glove box area. Use zip ties or velcro straps to affix the wire as you go to minimize movement of the wires. You can replace the USB harness and pop the USB panel back in once you have run the wire.
 
 ![](images/step4_posi_tap.png)
 
----
+***
 
-## STEP 5: Install eBay Star Board, OBDII Harness, and 12v Power
+### STEP 5: Install eBay Star Board, OBDII Harness, and 12v Power
 
 Now that the 12v wires are in the area where we will be installing the harness, you can wire the hot and ground to the OBDII harness. Solid, automotive-grade connectors are recommended for this task, as we want to ensure a solid connection and power. **Note:** if the WP loses power while operating the vehicle, you will lose power steering.
 
