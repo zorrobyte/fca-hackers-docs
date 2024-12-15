@@ -19,7 +19,7 @@ The instructions below are for the hardware portion of the White Panda Pacifica 
 
 ## Supply List
 
-[https://discord.com/channels/812934069591080962/821388732820094987/829069554449383455](https://discord.com/channels/812934069591080962/821388732820094987/829069554449383455)
+[Discord Channel](https://discord.com/channels/812934069591080962/821388732820094987/829069554449383455)
 
 You will also need some 20 AWG wire and connectors to bridge this wire to the OBDII harness. Note that this connection is crucial, and should be made as solid as possible to prevent power interruption.
 
@@ -28,10 +28,10 @@ You will also need some 20 AWG wire and connectors to bridge this wire to the OB
 ## STEP 1: Flash WP and Install `xps_fca` on Comma 2
 
 You will want to first flash the White Panda (WP) with this branch:
-- [https://github.com/xps-genesis/panda/tree/xps_seps](https://github.com/xps-genesis/panda/tree/xps_seps)
+- [xps_seps Branch](https://github.com/xps-genesis/panda/tree/xps_seps)
 
 Then install this branch on your Comma 2:
-- [https://github.com/xps-genesis/openpilot/tree/xps_fca](https://github.com/xps-genesis/openpilot/tree/xps_fca)
+- [xps_fca Branch](https://github.com/xps-genesis/openpilot/tree/xps_fca)
 
 ---
 
@@ -77,7 +77,7 @@ Now, using the plastic trim remover tool, remove this side panel in the passenge
 
 The video link below shows how to remove the glove box and fabric backing to access the space behind the glove box and the star connector. Note that pushing in the tabs on the sides of the glovebox to drop it for the first time requires a lot of force, and this is normal.
 
-- [How To Change 2017 - 2021 Chrysler Pacifica Cabin Air filter - Replace Remove Replacement Location](https://www.youtube.com/watch?v=U5MnSaoD4eY)
+- [How To Change 2017 - 2021 Chrysler Pacifica Cabin Air Filter - Replace Remove Replacement Location](https://www.youtube.com/watch?v=U5MnSaoD4eY)
 
 Connect the Posi-Tap Connectors as shown below. On the USB harness, the pink wire is hot, black wire is ground—verify with a voltmeter. Run your 12v wire from the USB through the access panel, up into the glove box area. Use zip ties or velcro straps to affix the wire as you go to minimize movement of the wires. You can replace the USB harness and pop the USB panel back in once you have run the wire.
 
@@ -87,7 +87,7 @@ Connect the Posi-Tap Connectors as shown below. On the USB harness, the pink wir
 
 ## STEP 5: Install eBay Star Board, OBDII Harness, and 12v Power
 
-Now that the 12v wires are in the area where we will be installing the harness, you can wire the hot and ground to the OBDII harness. Solid, automotive-grade connectors are recommended for this task, as we want to ensure a solid connection and power. Note: if the WP loses power while operating the vehicle, you will lose power steering.
+Now that the 12v wires are in the area where we will be installing the harness, you can wire the hot and ground to the OBDII harness. Solid, automotive-grade connectors are recommended for this task, as we want to ensure a solid connection and power. **Note:** if the WP loses power while operating the vehicle, you will lose power steering.
 
 Look up into the cavity and you will see the star connector we will be patching into:
 
