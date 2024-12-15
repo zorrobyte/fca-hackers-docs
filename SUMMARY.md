@@ -7,3 +7,4 @@
 * [Random Notes \[ToDo\]](page.md)
 * [Software Analysis](software-analysis/README.md)
   * [Panda Firmware](software-analysis/panda-firmware.md)
+  * [Openpilot](software-analysis/openpilot.md)

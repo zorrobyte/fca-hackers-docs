@@ -14,4 +14,6 @@ jve has dynamic enable/disable so steering isn't heavy as we spoof the EPS speed
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-15 092749.png" alt=""><figcaption></figcaption></figure>
 
-No other differences can be found. jve has the most up to date and feature rich panda code at this time (12/15/2024)
+jve has the most up to date and feature rich panda code at this time, imo (12/15/2024)
+
+Sunny doesn't seem to have an op long implementation for FCA but need to read the code more
