@@ -9,3 +9,6 @@ Looks pretty up to date to me. The only difference would be the fork for the Com
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Sunnypilot WP Mod basic vs advanced\
+![](<.gitbook/assets/image (6).png>)
