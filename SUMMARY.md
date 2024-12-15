@@ -5,3 +5,5 @@
 * [Parking Mode](parking-mode.md)
 * [OP Long for FCA](op-long-for-fca.md)
 * [Random Notes \[ToDo\]](page.md)
+* [Software Analysis](software-analysis/README.md)
+  * [Panda Firmware](software-analysis/panda-firmware.md)
